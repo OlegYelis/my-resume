@@ -80,10 +80,6 @@ body {
 
 /* COMMON */
 
-.tablet-element {
-  display: none !important;
-} 
-
 .desktop-element {
   display: none !important;
 }
@@ -145,6 +141,8 @@ body {
   top: 0;
   left: 0;
   height: 100%;
+  width: 100%;
+  min-width: 280px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
@@ -1230,7 +1228,8 @@ body {
     width: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; 
+    text-align: left;
   }
 
   .calculator-icon {
