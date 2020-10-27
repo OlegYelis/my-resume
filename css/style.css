@@ -1618,5 +1618,6 @@ body {
 
   .project-modal-container {
     padding: 95px;
+    width: 100%;
   }
 }
