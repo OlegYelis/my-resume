@@ -1315,13 +1315,14 @@ body {
     z-index: 4;
     position: relative;
     width: 387px;
+    margin-right: 150px;
   }
 
   .front-page-my-photo {
     position: absolute;
     width: 250px;
     z-index: -1;
-    right: -150px;
+    right: -180px;
     bottom: 330px;
   }
 
