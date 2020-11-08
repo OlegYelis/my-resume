@@ -246,6 +246,7 @@ body {
 
 .my-video-content {
   width: 100%;
+  max-width: 1700px;
 }
 
 .my-video-container {
@@ -1620,5 +1621,6 @@ body {
   .project-modal-container {
     padding: 95px;
     width: 100%;
+    max-width: 1500px;
   }
 }
